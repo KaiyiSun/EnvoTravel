@@ -1,11 +1,11 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 
 export default function DistanceForm() {
-  const [distance, setDistance] = useState('');
-  
+  const [distance, setDistance] = useState(0);
+
   const onSubmit = (e) => {
-    setDistance(e.target.value)
-  }
+    setDistance(e.target.value);
+  };
 
   return (
     <form>
@@ -13,5 +13,5 @@ export default function DistanceForm() {
       <input value={distance} onChange={onSubmit} />
       <input type="submit" value="submit" />
     </form>
-  )
+  );
 }

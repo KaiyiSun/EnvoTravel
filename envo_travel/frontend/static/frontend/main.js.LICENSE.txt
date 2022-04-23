@@ -12,11 +12,21 @@
 
 /*! ./homePage */
 
+/*! ./navbar */
+
+/*! @babel/runtime/helpers/esm/extends */
+
+/*! history */
+
 /*! react */
 
 /*! react-dom */
 
 /*! react-dom/client */
+
+/*! react-router */
+
+/*! react-router-dom */
 
 /*! scheduler */
 
@@ -27,6 +37,10 @@
 /*!*******************************!*\
   !*** ./src/components/app.js ***!
   \*******************************/
+
+/*!**********************************!*\
+  !*** ./src/components/navbar.js ***!
+  \**********************************/
 
 /*!************************************!*\
   !*** ./src/components/homePage.js ***!
@@ -39,6 +53,10 @@
 /*!*************************************!*\
   !*** ./node_modules/react/index.js ***!
   \*************************************/
+
+/*!***************************************!*\
+  !*** ./node_modules/history/index.js ***!
+  \***************************************/
 
 /*!****************************************!*\
   !*** ./src/components/distanceForm.js ***!
@@ -56,9 +74,21 @@
   !*** ./node_modules/react-dom/client.js ***!
   \******************************************/
 
+/*!********************************************!*\
+  !*** ./node_modules/react-router/index.js ***!
+  \********************************************/
+
+/*!************************************************!*\
+  !*** ./node_modules/react-router-dom/index.js ***!
+  \************************************************/
+
 /*!*****************************************************!*\
   !*** ./node_modules/react/cjs/react.development.js ***!
   \*****************************************************/
+
+/*!************************************************************!*\
+  !*** ./node_modules/@babel/runtime/helpers/esm/extends.js ***!
+  \************************************************************/
 
 /*!*************************************************************!*\
   !*** ./node_modules/react-dom/cjs/react-dom.development.js ***!
@@ -100,4 +130,26 @@
  * @return {boolean} True if the event is supported.
  * @internal
  * @license Modernizr 3.0.0pre (Custom Build) | MIT
+ */
+
+/**
+ * React Router DOM v6.3.0
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
+ */
+
+/**
+ * React Router v6.3.0
+ *
+ * Copyright (c) Remix Software Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE.md file in the root directory of this source tree.
+ *
+ * @license MIT
  */
