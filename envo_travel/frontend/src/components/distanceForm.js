@@ -8,10 +8,14 @@ export default function DistanceForm() {
   };
 
   return (
-    <form>
-      <label>Distance </label>
-      <input value={distance} onChange={onSubmit} />
-      <input type="submit" value="submit" />
-    </form>
+    <div>
+      <form>
+        <label>Distance (km) </label>
+        <input value={distance} onChange={onSubmit} />
+        <input type="submit" value="submit" />
+      </form>
+      <h2>Estimated Carbon Emission</h2>
+      <p>{distance * 32} CO2/km </p>
+    </div>
   );
 }
